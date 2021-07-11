@@ -1,0 +1,227 @@
+.service-request{
+    text-align: left;
+    font: normal normal bold 20px/34px sans-serif;
+    letter-spacing: 0px;
+    color: #467BEE;
+    margin-left: 1vw;
+    opacity: 1;
+    
+}
+.dashboard-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left-card{
+    width: 19vw;
+    height: 60vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    padding-left: 1vw;
+    opacity: 1;
+}
+.middle-card{
+    width: 40vw;
+    height: 54vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    opacity: 1;
+}
+.right-card{
+    width: 20vw;
+    height: 58vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+}
+.left-cardBox{
+   width: 18vw;
+   height: 11vh;
+   background: #F7F8FC 0% 0% no-repeat padding-box;
+   box-shadow: 0px 0px 3px #81818129;
+   margin-top: 1vh;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   font: normal normal 600 14px/34px sans-serif;
+   color: #000000;
+} 
+.left-cardBox:hover{
+    background: #467BEE;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.add-btn{
+    height: 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    border: none;
+    opacity: 1;
+    font: normal normal normal 12px/21px sans-serif;
+    letter-spacing: 0px;
+    color: #467BEE;
+    cursor: pointer;
+}
+.addMedication-btn{
+    width: 10vw;
+    height: 30px;
+    background: #467BEE 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    border: none;
+    font: normal normal normal 16px/24px sans-serif;
+    color: #FFFFFF;
+    opacity: 1;
+    cursor: pointer;
+}
+.cartDetails-title{
+    text-align: left;
+    font: normal normal 600 15px/15px sans-serif;
+    letter-spacing: 0px;
+    color: #467BEE;
+    opacity: 1;
+    margin: 1vw;
+}
+.cartDetails-sub-title{
+    text-align: left;
+    font: normal normal 600 15px/18px sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    margin: 1vw;
+    opacity: 1;
+}
+.name{
+    text-align: left;
+    font: normal normal normal 14px/19px sans-serif;
+    letter-spacing: 0px;
+    color: #888888;
+    opacity: 1;
+}
+.completeRequest-btns{
+    width: 19vw;
+    height: 38px;
+    background: #16A34A 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    font: normal normal normal 18px/20px sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.tableHeader{
+    width: 100%;
+    height: 10vh;
+    background: #EBF1FD 0% 0% no-repeat padding-box;
+    border-radius: 25px 25px 0px 0px;
+}
+.Recommended{
+    background: #16A34A 0% 0% no-repeat padding-box;
+    border-radius: 0px 25px 0px 0px;
+    color:#FFFFFF
+}
+.select-btn{
+    width: 8vw;
+    height: 30px;
+    background: #EBF1FD 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    text-align: center;
+    font: normal normal normal 16px/18px sans-serif;
+    letter-spacing: 0px;
+    color: #467BEE;
+    border: none;
+    opacity: 1;
+}
+.select-color-btn{
+    width: 8vw;
+    height: 30px;
+    background: #467BEE 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    text-align: center;
+    font: normal normal normal 16px/18px sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    border: none;
+    opacity: 1;
+}
+.AddCard-card1{
+    width: 17vw;
+    height: 19vh;
+    background: #467BEE 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 15px #467BEE30;
+    border-radius: 8px;
+    
+    text-align: left;
+    opacity: 1;
+}
+.card-number{
+    text-align: left;
+    font: normal normal 600 18px/20px sans-serif;
+    letter-spacing: 7.29px;
+    color: #F7F8FC;
+    opacity: 1;
+}
+.card-details{
+    text-align: left;
+    font: normal normal normal 10px/21px sans-serif;
+    letter-spacing: 0px;
+    color: #F7F8FC;
+    opacity: .8;
+}
+.card-holderName{
+    text-align: left;
+    font: normal normal 600 15px/20px sans-serif;
+    letter-spacing: 0px;
+    color: #F7F8FC;
+    opacity: 1;
+}
+.bar-codeChip{
+    width: 19vw;
+    height: 25px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    margin-top: 2vw;
+}
+.lable{
+    text-align: left;
+    font: normal normal normal 18px/21px sans-serif;
+    letter-spacing: 0px;
+    color: #CECECE;
+    opacity: 1;
+}
+.textbox{
+    width: 17vw;
+    height: 30px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #CECECE;
+    border-radius: 48px;
+    opacity: 1;
+    font: normal normal normal 18px/20px sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    outline: none;
+    padding-left: 10px;
+}
+.cancel-btn{
+    width: 10vw;
+    height: 40px;
+    border: 1px solid #467BEE;
+    border-radius: 25px;
+    outline: none;
+    font: normal normal normal 18px/33px sans-serif;
+    color: #467BEE;
+    margin-right: 1vw;
+    opacity: 1
+}
+.saveCard-btn{
+    width: 10vw;
+    height: 40px;
+    background: #467BEE 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font: normal normal normal 18px/33px sans-serif;
+    color: #FFFFFF;
+    margin-right: 1vw;
+    opacity: 1;
+}
